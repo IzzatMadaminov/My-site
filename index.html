@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 ">
+	<title>My page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<style type="text/css">
+	 body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 35px;
+ font-size: 34px;
+ font-weight: bold;
+ letter-spacing: 2px;
+  }
+
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  /*.bg-1 img{transform: rotate(-90deg);}
+*/  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #83af9f; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #aefaef; /* White */
+      color: #555555;
+  }
+  .bg-5 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      position: fixed;
+      width: 100%;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+
+	</style>
+</head>
+<body onload="myMove()">
+
+<!-- Navbar -->
+<nav class="navbar bg-info">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand active" href="index.html" >Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+				<li><a href="schedule.html"></a></li>
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="csfont">
+  <h2 class="margin" id="animate">I</h2>
+  <img src="https://scontent.fakx2-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/76695173_124838942289419_7355755557443076096_o.jpg?_nc_cat=103&efg=eyJpIjoidCJ9&_nc_ohc=7zvBLBuBe10AQlTvVBp6ypQ7NFVU-dLs_9ArblnH0LxxTGDziz3p7V45A&_nc_ht=scontent.fakx2-1.fna&oh=4d24c24be1695e7665c35663d35e4b72&oe=5E7489C6" class="img-responsive img-rounded margin" style="display:inline;" alt="I am" width="350" height="350">
+  <h3>I'm a Student of UBTUIT</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Do I DO?</h3>
+  <p>I study in sphere IT. I am learning Programmimg Languages.  </p>
+  <p>Nowadays I am learning making web sites,Web-Development.</p>
+</div>
+
+<!-- Third Container -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">My Interests</h3>
+  <p>I am interested in learning languages.</p>
+  <p>Next year I am going to preparing to get IELTS sertification.</p>
+  <p>After graduate bachelor degree I am going to study in Germany. <br> So I must learn German too.</p>
+</div>
+
+<!-- Fourth Container (Grid) -->
+<div class="container-fluid bg-4 text-center">
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="https://www.facebook.com/izzat.madaminov.8897">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Facebook_icon.jpg" class="img-responsive margin" style="width:30px" alt="Facebook">
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="https://telegram.me/Izzat_8897">
+      <img src="https://bitnovosti.com/wp-content/uploads/2017/02/telegram-icon-7.png" class="img-responsive margin" style="width:30px" alt="Telegram">
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="https://ok.ru/profile/559327364707">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Odnoklassniki.svg" class="img-responsive margin" style="width:30px" alt="OK">
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+  <p>Powered by Izzatbek Madaminov <br>Copyright &copy;  All right reserved 2019 </p>
+</footer>
+
+<script>
+    function myMove() {
+    //   var contt = document.getElementById("cont");
+    // var elem = document.getElementById("animate");
+    // var pos = 0;
+    // var a = contt.style.width;
+    // var id = setInterval(frame, 5);
+    // function frame() {
+    //   window.alert(a);
+    //     if (cont.style.width == pos) {
+    //         clearInterval(id);
+    //     } else {
+    //         pos++;
+    //         //elem.style.top = pos + 'px';
+    //         elem.style.left = pos + 'px';
+    //     }
+    // }
+
+    var string = "zzatbek Madaminov";
+var str = string.split("");
+var el = document.getElementById('animate');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
+var running = setTimeout(animate, 100);
+})();
+}
+  </script>
+
+<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
